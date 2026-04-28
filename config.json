@@ -6,93 +6,718 @@
   },
   "assignments": [
     {
-      "id": "python-basics",
-      "title": "Python Basics",
-      "description": "Variables, data types, conditionals, and loops",
-      "path": "assignments/python-basics",
-      "dueDate": "2026-03-14",
-      "attachments": [
-        {
-          "name": "Starter Code",
-          "file": "starter-code.py",
-          "type": "python"
-        }
-      ]
+      "id": "variables-and-types",
+      "title": "Variables and Data Types",
+      "description": "Learn about primitive data types and variable assignment in Python",
+      "path": "assignments/variables-and-types",
+      "dueDate": "2025-01-01"
     },
     {
-      "id": "games-in-python",
-      "title": "Games in Python",
-      "description": "Creating games using Python",
-      "path": "assignments/games-in-python",
-      "dueDate": "2026-03-29"
+      "id": "operators",
+      "title": "Basic Operators",
+      "description": "Master arithmetic, logical, and comparison operators",
+      "path": "assignments/operators",
+      "dueDate": "2025-01-03"
     },
     {
-      "id": "python-classes",
-      "title": "Python Classes",
-      "description": "Defining and using classes in Python",
-      "path": "assignments/python-classes",
-      "dueDate": "2026-04-08",
-      "attachments": [
-        {
-          "name": "Starter Code",
-          "file": "starter-code.py",
-          "type": "python"
-        }
-      ]
+      "id": "conditionals",
+      "title": "Conditional Statements",
+      "description": "Use if-else statements for decision making",
+      "path": "assignments/conditionals",
+      "dueDate": "2025-01-05"
     },
     {
-      "id": "data-analysis",
-      "title": "Data Analysis",
-      "description": "Basics of data analysis: loading, exploring, and visualizing data in Python.",
-      "path": "assignments/data-analysis",
-      "dueDate": "2026-05-12",
-      "attachments": [
-        {
-          "name": "Starter Code",
-          "file": "starter-code.py",
-          "type": "python"
-        },
-        {
-          "name": "Sample Dataset",
-          "file": "data.csv",
-          "type": "csv"
-        }
-      ]
+      "id": "loops-basics",
+      "title": "Loop Fundamentals",
+      "description": "Implement for and while loops for repetition",
+      "path": "assignments/loops-basics",
+      "dueDate": "2025-01-07"
     },
     {
-      "id": "data-structures",
-      "title": "Data Structures in Python",
-      "description": "Master lists, dictionaries, sets, and tuples by building a student grading system and analyzing class performance.",
-      "path": "assignments/data-structures",
-      "dueDate": "2026-05-05",
-      "attachments": [
-        {
-          "name": "Starter Code",
-          "file": "starter-code.py",
-          "type": "python"
-        }
-      ]
+      "id": "functions-intro",
+      "title": "Introduction to Functions",
+      "description": "Define and call reusable functions",
+      "path": "assignments/functions-intro",
+      "dueDate": "2025-01-09"
     },
     {
-      "id": "senior-code-practices",
-      "title": "Senior Code Practices",
-      "description": "Apply professional software development practices: refactoring, documentation, testing, and design principles.",
-      "path": "assignments/senior-code-practices",
-      "dueDate": "2026-05-05",
-      "attachments": [
-        {
-          "name": "Legacy Code",
-          "file": "starter-code.py",
-          "type": "python"
-        }
-      ]
+      "id": "strings",
+      "title": "String Manipulation",
+      "description": "Work with string methods and formatting",
+      "path": "assignments/strings",
+      "dueDate": "2025-01-11"
     },
     {
-      "id": "database-scaling",
-      "title": "Database Scaling for High-Traffic Systems",
-      "description": "Master database sharding, query optimization, indexing, replication, and caching strategies for systems handling extreme traffic and data volumes.",
-      "path": "assignments/database-scaling",
-      "dueDate": "2026-05-05"
+      "id": "lists",
+      "title": "Lists and Arrays",
+      "description": "Use Python lists to store and manipulate data",
+      "path": "assignments/lists",
+      "dueDate": "2025-01-13"
+    },
+    {
+      "id": "input-output",
+      "title": "Input and Output",
+      "description": "Create programs that interact with users",
+      "path": "assignments/input-output",
+      "dueDate": "2025-01-15"
+    },
+    {
+      "id": "type-conversion",
+      "title": "Type Conversion",
+      "description": "Convert between different data types",
+      "path": "assignments/type-conversion",
+      "dueDate": "2025-01-17"
+    },
+    {
+      "id": "comments-documentation",
+      "title": "Comments and Documentation",
+      "description": "Write clear code with proper documentation",
+      "path": "assignments/comments-documentation",
+      "dueDate": "2025-01-19"
+    },
+    {
+      "id": "dictionaries",
+      "title": "Dictionaries and Maps",
+      "description": "Use key-value pairs for data organization",
+      "path": "assignments/dictionaries",
+      "dueDate": "2025-01-21"
+    },
+    {
+      "id": "tuples",
+      "title": "Tuples and Immutability",
+      "description": "Work with immutable sequences",
+      "path": "assignments/tuples",
+      "dueDate": "2025-01-23"
+    },
+    {
+      "id": "sets",
+      "title": "Sets and Unique Values",
+      "description": "Use sets for storing unique elements",
+      "path": "assignments/sets",
+      "dueDate": "2025-01-25"
+    },
+    {
+      "id": "nested-structures",
+      "title": "Nested Data Structures",
+      "description": "Work with complex nested lists and dictionaries",
+      "path": "assignments/nested-structures",
+      "dueDate": "2025-01-27"
+    },
+    {
+      "id": "stack-implementation",
+      "title": "Stack Data Structure",
+      "description": "Implement a stack with push and pop operations",
+      "path": "assignments/stack-implementation",
+      "dueDate": "2025-01-29"
+    },
+    {
+      "id": "queue-implementation",
+      "title": "Queue Data Structure",
+      "description": "Implement a queue with enqueue and dequeue",
+      "path": "assignments/queue-implementation",
+      "dueDate": "2025-01-31"
+    },
+    {
+      "id": "linked-list",
+      "title": "Linked Lists",
+      "description": "Create a singly linked list from scratch",
+      "path": "assignments/linked-list",
+      "dueDate": "2025-02-02"
+    },
+    {
+      "id": "binary-tree",
+      "title": "Binary Trees",
+      "description": "Build and traverse binary tree structures",
+      "path": "assignments/binary-tree",
+      "dueDate": "2025-02-04"
+    },
+    {
+      "id": "graph-basics",
+      "title": "Graph Fundamentals",
+      "description": "Create and traverse graph data structures",
+      "path": "assignments/graph-basics",
+      "dueDate": "2025-02-06"
+    },
+    {
+      "id": "hash-tables",
+      "title": "Hash Tables and Hashing",
+      "description": "Understand hash functions and collision handling",
+      "path": "assignments/hash-tables",
+      "dueDate": "2025-02-08"
+    },
+    {
+      "id": "bubble-sort",
+      "title": "Bubble Sort Algorithm",
+      "description": "Implement and understand bubble sorting",
+      "path": "assignments/bubble-sort",
+      "dueDate": "2025-02-10"
+    },
+    {
+      "id": "quick-sort",
+      "title": "Quick Sort Algorithm",
+      "description": "Master the quick sort algorithm",
+      "path": "assignments/quick-sort",
+      "dueDate": "2025-02-12"
+    },
+    {
+      "id": "merge-sort",
+      "title": "Merge Sort Algorithm",
+      "description": "Implement divide-and-conquer sorting",
+      "path": "assignments/merge-sort",
+      "dueDate": "2025-02-14"
+    },
+    {
+      "id": "binary-search",
+      "title": "Binary Search",
+      "description": "Use binary search on sorted arrays",
+      "path": "assignments/binary-search",
+      "dueDate": "2025-02-16"
+    },
+    {
+      "id": "linear-search",
+      "title": "Linear Search",
+      "description": "Implement sequential search algorithms",
+      "path": "assignments/linear-search",
+      "dueDate": "2025-02-18"
+    },
+    {
+      "id": "fibonacci-sequence",
+      "title": "Fibonacci Numbers",
+      "description": "Generate Fibonacci sequence recursively and iteratively",
+      "path": "assignments/fibonacci-sequence",
+      "dueDate": "2025-02-20"
+    },
+    {
+      "id": "prime-numbers",
+      "title": "Prime Number Checker",
+      "description": "Identify and generate prime numbers",
+      "path": "assignments/prime-numbers",
+      "dueDate": "2025-02-22"
+    },
+    {
+      "id": "gcd-lcm",
+      "title": "GCD and LCM",
+      "description": "Calculate greatest common divisor and least common multiple",
+      "path": "assignments/gcd-lcm",
+      "dueDate": "2025-02-24"
+    },
+    {
+      "id": "pattern-matching",
+      "title": "Pattern Matching",
+      "description": "Search for patterns in strings",
+      "path": "assignments/pattern-matching",
+      "dueDate": "2025-02-26"
+    },
+    {
+      "id": "recursion-advanced",
+      "title": "Advanced Recursion",
+      "description": "Solve problems using recursive algorithms",
+      "path": "assignments/recursion-advanced",
+      "dueDate": "2025-02-28"
+    },
+    {
+      "id": "classes-objects",
+      "title": "Classes and Objects",
+      "description": "Design and implement classes",
+      "path": "assignments/classes-objects",
+      "dueDate": "2025-03-02"
+    },
+    {
+      "id": "inheritance",
+      "title": "Inheritance in OOP",
+      "description": "Create class hierarchies with inheritance",
+      "path": "assignments/inheritance",
+      "dueDate": "2025-03-04"
+    },
+    {
+      "id": "polymorphism",
+      "title": "Polymorphism",
+      "description": "Implement method overriding and dynamic dispatch",
+      "path": "assignments/polymorphism",
+      "dueDate": "2025-03-06"
+    },
+    {
+      "id": "encapsulation",
+      "title": "Encapsulation",
+      "description": "Use access modifiers and information hiding",
+      "path": "assignments/encapsulation",
+      "dueDate": "2025-03-08"
+    },
+    {
+      "id": "abstraction",
+      "title": "Abstraction",
+      "description": "Design abstract base classes and interfaces",
+      "path": "assignments/abstraction",
+      "dueDate": "2025-03-10"
+    },
+    {
+      "id": "static-members",
+      "title": "Static Methods and Variables",
+      "description": "Work with class-level members",
+      "path": "assignments/static-members",
+      "dueDate": "2025-03-12"
+    },
+    {
+      "id": "constructors",
+      "title": "Constructors and Initialization",
+      "description": "Implement object initialization",
+      "path": "assignments/constructors",
+      "dueDate": "2025-03-14"
+    },
+    {
+      "id": "composition",
+      "title": "Composition vs Inheritance",
+      "description": "Choose composition over inheritance wisely",
+      "path": "assignments/composition",
+      "dueDate": "2025-03-16"
+    },
+    {
+      "id": "properties",
+      "title": "Properties and Getters/Setters",
+      "description": "Use properties for controlled access",
+      "path": "assignments/properties",
+      "dueDate": "2025-03-18"
+    },
+    {
+      "id": "design-patterns-basic",
+      "title": "Singleton Pattern",
+      "description": "Implement the Singleton design pattern",
+      "path": "assignments/design-patterns-basic",
+      "dueDate": "2025-03-20"
+    },
+    {
+      "id": "html-basics",
+      "title": "HTML Fundamentals",
+      "description": "Create structured HTML documents",
+      "path": "assignments/html-basics",
+      "dueDate": "2025-03-22"
+    },
+    {
+      "id": "css-styling",
+      "title": "CSS Styling Basics",
+      "description": "Apply styles to HTML elements",
+      "path": "assignments/css-styling",
+      "dueDate": "2025-03-24"
+    },
+    {
+      "id": "javascript-basics",
+      "title": "JavaScript Fundamentals",
+      "description": "Write interactive JavaScript code",
+      "path": "assignments/javascript-basics",
+      "dueDate": "2025-03-26"
+    },
+    {
+      "id": "dom-manipulation",
+      "title": "DOM Manipulation",
+      "description": "Modify HTML elements with JavaScript",
+      "path": "assignments/dom-manipulation",
+      "dueDate": "2025-03-28"
+    },
+    {
+      "id": "event-handling",
+      "title": "Event Handling",
+      "description": "Respond to user interactions",
+      "path": "assignments/event-handling",
+      "dueDate": "2025-03-30"
+    },
+    {
+      "id": "forms-validation",
+      "title": "Form Validation",
+      "description": "Validate user input in web forms",
+      "path": "assignments/forms-validation",
+      "dueDate": "2025-04-01"
+    },
+    {
+      "id": "flexbox-layout",
+      "title": "Flexbox Layout",
+      "description": "Create flexible responsive layouts",
+      "path": "assignments/flexbox-layout",
+      "dueDate": "2025-04-03"
+    },
+    {
+      "id": "css-grid",
+      "title": "CSS Grid Layout",
+      "description": "Build complex layouts with CSS Grid",
+      "path": "assignments/css-grid",
+      "dueDate": "2025-04-05"
+    },
+    {
+      "id": "responsive-design",
+      "title": "Responsive Web Design",
+      "description": "Make websites work on all devices",
+      "path": "assignments/responsive-design",
+      "dueDate": "2025-04-07"
+    },
+    {
+      "id": "fetch-api",
+      "title": "Fetch API and AJAX",
+      "description": "Load data asynchronously from servers",
+      "path": "assignments/fetch-api",
+      "dueDate": "2025-04-09"
+    },
+    {
+      "id": "sql-basics",
+      "title": "SQL Fundamentals",
+      "description": "Write basic SQL queries",
+      "path": "assignments/sql-basics",
+      "dueDate": "2025-04-11"
+    },
+    {
+      "id": "create-tables",
+      "title": "Creating Tables",
+      "description": "Design and create database tables",
+      "path": "assignments/create-tables",
+      "dueDate": "2025-04-13"
+    },
+    {
+      "id": "select-queries",
+      "title": "SELECT Queries",
+      "description": "Retrieve data with various SQL queries",
+      "path": "assignments/select-queries",
+      "dueDate": "2025-04-15"
+    },
+    {
+      "id": "where-clause",
+      "title": "WHERE and Filtering",
+      "description": "Filter data with WHERE conditions",
+      "path": "assignments/where-clause",
+      "dueDate": "2025-04-17"
+    },
+    {
+      "id": "joins",
+      "title": "SQL JOINS",
+      "description": "Combine data from multiple tables",
+      "path": "assignments/joins",
+      "dueDate": "2025-04-19"
+    },
+    {
+      "id": "group-by",
+      "title": "GROUP BY and Aggregation",
+      "description": "Summarize data with aggregate functions",
+      "path": "assignments/group-by",
+      "dueDate": "2025-04-21"
+    },
+    {
+      "id": "subqueries",
+      "title": "Subqueries",
+      "description": "Use nested queries for complex logic",
+      "path": "assignments/subqueries",
+      "dueDate": "2025-04-23"
+    },
+    {
+      "id": "indexes",
+      "title": "Database Indexing",
+      "description": "Optimize queries with indexes",
+      "path": "assignments/indexes",
+      "dueDate": "2025-04-25"
+    },
+    {
+      "id": "transactions",
+      "title": "Database Transactions",
+      "description": "Implement ACID transactions",
+      "path": "assignments/transactions",
+      "dueDate": "2025-04-27"
+    },
+    {
+      "id": "normalization",
+      "title": "Database Normalization",
+      "description": "Design normalized database schemas",
+      "path": "assignments/normalization",
+      "dueDate": "2025-04-29"
+    },
+    {
+      "id": "file-reading",
+      "title": "Reading Files",
+      "description": "Open and read file contents",
+      "path": "assignments/file-reading",
+      "dueDate": "2025-05-01"
+    },
+    {
+      "id": "file-writing",
+      "title": "Writing Files",
+      "description": "Create and write to files",
+      "path": "assignments/file-writing",
+      "dueDate": "2025-05-03"
+    },
+    {
+      "id": "text-processing",
+      "title": "Text File Processing",
+      "description": "Parse and analyze text files",
+      "path": "assignments/text-processing",
+      "dueDate": "2025-05-05"
+    },
+    {
+      "id": "csv-handling",
+      "title": "CSV File Handling",
+      "description": "Read and write CSV files",
+      "path": "assignments/csv-handling",
+      "dueDate": "2025-05-07"
+    },
+    {
+      "id": "json-parsing",
+      "title": "JSON Parsing",
+      "description": "Work with JSON data",
+      "path": "assignments/json-parsing",
+      "dueDate": "2025-05-09"
+    },
+    {
+      "id": "directory-operations",
+      "title": "Directory Operations",
+      "description": "List, create, and delete directories",
+      "path": "assignments/directory-operations",
+      "dueDate": "2025-05-11"
+    },
+    {
+      "id": "path-manipulation",
+      "title": "Path Manipulation",
+      "description": "Work with file and directory paths",
+      "path": "assignments/path-manipulation",
+      "dueDate": "2025-05-13"
+    },
+    {
+      "id": "regular-expressions",
+      "title": "Regular Expressions",
+      "description": "Use regex for pattern matching",
+      "path": "assignments/regular-expressions",
+      "dueDate": "2025-05-15"
+    },
+    {
+      "id": "command-line-args",
+      "title": "Command Line Arguments",
+      "description": "Process command line input",
+      "path": "assignments/command-line-args",
+      "dueDate": "2025-05-17"
+    },
+    {
+      "id": "environment-variables",
+      "title": "Environment Variables",
+      "description": "Read and use environment variables",
+      "path": "assignments/environment-variables",
+      "dueDate": "2025-05-19"
+    },
+    {
+      "id": "unit-testing",
+      "title": "Unit Testing Basics",
+      "description": "Write unit tests with frameworks",
+      "path": "assignments/unit-testing",
+      "dueDate": "2025-05-21"
+    },
+    {
+      "id": "test-coverage",
+      "title": "Test Coverage",
+      "description": "Measure and improve code coverage",
+      "path": "assignments/test-coverage",
+      "dueDate": "2025-05-23"
+    },
+    {
+      "id": "mocking",
+      "title": "Mocking and Stubs",
+      "description": "Mock dependencies in tests",
+      "path": "assignments/mocking",
+      "dueDate": "2025-05-25"
+    },
+    {
+      "id": "integration-testing",
+      "title": "Integration Testing",
+      "description": "Test multiple components together",
+      "path": "assignments/integration-testing",
+      "dueDate": "2025-05-27"
+    },
+    {
+      "id": "assertions",
+      "title": "Test Assertions",
+      "description": "Use assertions to verify behavior",
+      "path": "assignments/assertions",
+      "dueDate": "2025-05-29"
+    },
+    {
+      "id": "debugging-techniques",
+      "title": "Debugging Techniques",
+      "description": "Use debuggers and logging effectively",
+      "path": "assignments/debugging-techniques",
+      "dueDate": "2025-05-31"
+    },
+    {
+      "id": "code-quality",
+      "title": "Code Quality Metrics",
+      "description": "Measure and improve code quality",
+      "path": "assignments/code-quality",
+      "dueDate": "2025-06-02"
+    },
+    {
+      "id": "refactoring",
+      "title": "Refactoring Code",
+      "description": "Improve code structure and readability",
+      "path": "assignments/refactoring",
+      "dueDate": "2025-06-04"
+    },
+    {
+      "id": "rest-apis",
+      "title": "REST API Basics",
+      "description": "Understand REST principles",
+      "path": "assignments/rest-apis",
+      "dueDate": "2025-06-06"
+    },
+    {
+      "id": "http-methods",
+      "title": "HTTP Methods",
+      "description": "Use GET, POST, PUT, DELETE correctly",
+      "path": "assignments/http-methods",
+      "dueDate": "2025-06-08"
+    },
+    {
+      "id": "json-apis",
+      "title": "JSON APIs",
+      "description": "Work with JSON-based APIs",
+      "path": "assignments/json-apis",
+      "dueDate": "2025-06-10"
+    },
+    {
+      "id": "api-authentication",
+      "title": "API Authentication",
+      "description": "Implement API key and token auth",
+      "path": "assignments/api-authentication",
+      "dueDate": "2025-06-12"
+    },
+    {
+      "id": "error-handling-api",
+      "title": "API Error Handling",
+      "description": "Handle HTTP errors properly",
+      "path": "assignments/error-handling-api",
+      "dueDate": "2025-06-14"
+    },
+    {
+      "id": "webhooks",
+      "title": "Webhooks",
+      "description": "Receive and process webhook events",
+      "path": "assignments/webhooks",
+      "dueDate": "2025-06-16"
+    },
+    {
+      "id": "rate-limiting",
+      "title": "Rate Limiting",
+      "description": "Implement and handle rate limits",
+      "path": "assignments/rate-limiting",
+      "dueDate": "2025-06-18"
+    },
+    {
+      "id": "socket-programming",
+      "title": "Socket Programming",
+      "description": "Use sockets for network communication",
+      "path": "assignments/socket-programming",
+      "dueDate": "2025-06-20"
+    },
+    {
+      "id": "map-filter",
+      "title": "Map and Filter",
+      "description": "Use functional programming techniques",
+      "path": "assignments/map-filter",
+      "dueDate": "2025-06-22"
+    },
+    {
+      "id": "lambda-functions",
+      "title": "Lambda Functions",
+      "description": "Create anonymous functions",
+      "path": "assignments/lambda-functions",
+      "dueDate": "2025-06-24"
+    },
+    {
+      "id": "list-comprehensions",
+      "title": "List Comprehensions",
+      "description": "Use elegant list creation syntax",
+      "path": "assignments/list-comprehensions",
+      "dueDate": "2025-06-26"
+    },
+    {
+      "id": "higher-order-functions",
+      "title": "Higher-Order Functions",
+      "description": "Functions that take function arguments",
+      "path": "assignments/higher-order-functions",
+      "dueDate": "2025-06-28"
+    },
+    {
+      "id": "closures",
+      "title": "Closures",
+      "description": "Understand variable scope and closures",
+      "path": "assignments/closures",
+      "dueDate": "2025-06-30"
+    },
+    {
+      "id": "decorators",
+      "title": "Decorators",
+      "description": "Implement function decorators",
+      "path": "assignments/decorators",
+      "dueDate": "2025-07-02"
+    },
+    {
+      "id": "generators",
+      "title": "Generator Functions",
+      "description": "Create lazy iterators",
+      "path": "assignments/generators",
+      "dueDate": "2025-07-04"
+    },
+    {
+      "id": "immutable-data",
+      "title": "Immutable Data Structures",
+      "description": "Work with immutable collections",
+      "path": "assignments/immutable-data",
+      "dueDate": "2025-07-06"
+    },
+    {
+      "id": "big-o-notation",
+      "title": "Big O Notation",
+      "description": "Analyze algorithm complexity",
+      "path": "assignments/big-o-notation",
+      "dueDate": "2025-07-08"
+    },
+    {
+      "id": "algorithm-complexity",
+      "title": "Algorithm Complexity Analysis",
+      "description": "Measure time and space complexity",
+      "path": "assignments/algorithm-complexity",
+      "dueDate": "2025-07-10"
+    },
+    {
+      "id": "caching-strategies",
+      "title": "Caching Strategies",
+      "description": "Implement caching for performance",
+      "path": "assignments/caching-strategies",
+      "dueDate": "2025-07-12"
+    },
+    {
+      "id": "memoization",
+      "title": "Memoization",
+      "description": "Cache function results",
+      "path": "assignments/memoization",
+      "dueDate": "2025-07-14"
+    },
+    {
+      "id": "code-profiling",
+      "title": "Code Profiling",
+      "description": "Identify performance bottlenecks",
+      "path": "assignments/code-profiling",
+      "dueDate": "2025-07-16"
+    },
+    {
+      "id": "memory-management",
+      "title": "Memory Management",
+      "description": "Optimize memory usage",
+      "path": "assignments/memory-management",
+      "dueDate": "2025-07-18"
+    },
+    {
+      "id": "lazy-evaluation",
+      "title": "Lazy Evaluation",
+      "description": "Defer computation until needed",
+      "path": "assignments/lazy-evaluation",
+      "dueDate": "2025-07-20"
+    },
+    {
+      "id": "parallel-processing",
+      "title": "Parallel Processing",
+      "description": "Use threading and multiprocessing",
+      "path": "assignments/parallel-processing",
+      "dueDate": "2025-07-22"
     }
   ]
 }
