@@ -86,6 +86,13 @@
           "type": "python"
         }
       ]
+    },
+    {
+      "id": "database-scaling",
+      "title": "Database Scaling for High-Traffic Systems",
+      "description": "Master database sharding, query optimization, indexing, replication, and caching strategies for systems handling extreme traffic and data volumes.",
+      "path": "assignments/database-scaling",
+      "dueDate": "2026-05-05"
     }
   ]
 }
