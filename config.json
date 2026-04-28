@@ -72,6 +72,20 @@
           "type": "python"
         }
       ]
+    },
+    {
+      "id": "senior-code-practices",
+      "title": "Senior Code Practices",
+      "description": "Apply professional software development practices: refactoring, documentation, testing, and design principles.",
+      "path": "assignments/senior-code-practices",
+      "dueDate": "2026-05-05",
+      "attachments": [
+        {
+          "name": "Legacy Code",
+          "file": "starter-code.py",
+          "type": "python"
+        }
+      ]
     }
   ]
 }
