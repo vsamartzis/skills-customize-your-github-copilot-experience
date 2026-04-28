@@ -58,6 +58,20 @@
           "type": "csv"
         }
       ]
+    },
+    {
+      "id": "data-structures",
+      "title": "Data Structures in Python",
+      "description": "Master lists, dictionaries, sets, and tuples by building a student grading system and analyzing class performance.",
+      "path": "assignments/data-structures",
+      "dueDate": "2026-05-05",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "starter-code.py",
+          "type": "python"
+        }
+      ]
     }
   ]
 }
